@@ -88,7 +88,7 @@ header {
 		color: #94181C;
 	}
 
-	header p > span a:hover {
+	header p > span a:hover, header p > span a.hover {
 		color: #94181C;
 	}
 
@@ -97,7 +97,7 @@ header {
 nav {
 	position: absolute;
 	left: 11px;
-	top: 145;
+	top: 145px;
 	width: 940px;
 	height: 50px;
 	background-image: linear-gradient(top, #94181C 0%, #751518 100%);
@@ -130,7 +130,7 @@ nav {
 		border-right: 1px solid #752223;
 	}
 	
-	nav ul > li:hover {
+	nav ul > li:hover, nav ul > li.hover {
 		background-image: linear-gradient(top, #751518 0%, #94181C 100%);
 		background-image: -o-linear-gradient(top, #751518 0%, #94181C 100%);
 		background-image: -moz-linear-gradient(top, #751518 0%, #94181C 100%);
@@ -159,7 +159,7 @@ nav {
 	nav ul > li a i, nav ul > li a:visited i {
 		font-size: 16px;
 	}
-	nav ul > li a:hover{
+	nav ul > li a:hover, nav ul > li a.hover {
 		display: inline-block;
 		padding: 0 19px 0 19px;
 		line-height: 50px;
@@ -189,7 +189,7 @@ nav {
 		color: #000;
 	}
 	
-	nav ul > li > ul > li:hover {
+	nav ul > li > ul > li:hover, nav ul > li > ul > li.hover {
 		background-image: none; 
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
@@ -212,7 +212,7 @@ nav {
 		border: none;
 	}
 	
-	nav ul > li > ul > li:hover a, nav ul > li > ul > li:hover a:visited {
+	nav ul > li > ul > li:hover a, nav ul > li > ul > li:hover a:visited, nav ul > li > ul > li.hover a, nav ul > li > ul > li.hover a:visited {
 		color: #94181C;
 	}
 	
@@ -323,7 +323,7 @@ nav {
 		border-right: 1px solid #CCC;
 	}
 	
-	#section-nav a:hover {
+	#section-nav a:hover, #section-nav a.hover {
 		text-decoration: underline;
 	}
 	
@@ -441,10 +441,10 @@ nav {
 	
 	footer a, footer a:visited {
 		font-size: 16px;
-		color: #FFF;
+		color: #FFFFFF;
 	}
 	
-	footer a:hover {
-		color: #FFF;
+	footer a:hover, footer a.hover {
+		color: #FFFFFF;
 	}
 	
