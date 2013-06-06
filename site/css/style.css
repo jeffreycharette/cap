@@ -179,9 +179,6 @@ nav {
 		z-index: 1000;
 	}
 	
-  nav ul > li:hover > ul, nav ul > li.hover > ul {
-		display: block;
-	}
 	
 	nav ul > li > ul > li {
 		border-left: none;
