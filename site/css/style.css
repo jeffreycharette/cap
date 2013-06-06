@@ -179,7 +179,7 @@ nav {
 		z-index: 1000;
 	}
 	
-  nav ul > li.hover > ul {
+  nav ul > li:hover > ul, nav ul > li.hover > ul {
 		display: block;
 	}
 	
@@ -213,8 +213,14 @@ nav {
 	}
 	
 	nav ul > li > ul > li:hover a, nav ul > li > ul > li:hover a:visited, nav ul > li > ul > li.hover a, nav ul > li > ul > li.hover a:visited {
+		display: block;
 		padding: 0;
+		width: 270px;
+		line-height: 24px;
 		color: #94181C;
+		font-family: "proxima_novasemibold", sans-serif;
+		font-size: 18px;
+		border: none;
 	}
 	
 	/*---------------------------------------------------
