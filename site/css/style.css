@@ -179,7 +179,7 @@ nav {
 		z-index: 1000;
 	}
 	
-  nav ul > li:hover > ul, nav ul > li.hover > ul {
+  nav ul > li.hover > ul {
 		display: block;
 	}
 	
