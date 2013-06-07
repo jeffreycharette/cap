@@ -321,11 +321,16 @@ nav {
 	#subgrid table td {
 		padding-top: 18px;
 		padding-bottom: 18px;
+		vertical-align: middle;
 	}
 	
 	#subgrid table .page_header {
 		padding-top: 0;
 		padding-bottom: 0;
+	}
+	
+	#subgrid table .span8 {
+		width: auto;
 	}
 	
 	/*---------------------------------------------------
