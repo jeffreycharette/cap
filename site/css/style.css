@@ -5,10 +5,11 @@
 body {
 	padding-top: 0;
   padding-bottom: 0;
-	font-family: "proxima_nova_rgregular", sans-serif;
+	font-family: "garamond-premier-pro-display", serif;
 	color: #FFF;
 	background: #000 url('../img/bg.png') left top;
 	border-top: 10px solid #94181C;
+	line-height: 22px;
 }
 
 .sidebar-nav {
@@ -273,7 +274,7 @@ nav {
 	#subgrid .gridrow {
 		margin: 18px 18px 0 18px;
 		color: #000;
-		font-size: 16px;
+		font-size: 18px;
 	}
 	
 	#subgrid .paddingbottom {
@@ -342,7 +343,7 @@ nav {
 		padding-right: 10px;
 		color: #94181C;
 		text-decoration: none;
-		font-size: 14px;
+		font-size: 16px;
 		border-right: 1px solid #CCC;
 	}
 	
@@ -381,7 +382,7 @@ nav {
 	}
 	
 	.products ul li > ul li {
-		font-size: 14px;
+		font-size: 16px;
 		color: #333;
 	}
 	
@@ -414,7 +415,7 @@ nav {
 	}
 	
 	.services ul li > ul li {
-		font-size: 14px;
+		font-size: 16px;
 		color: #333;
 	}
 	
