@@ -401,10 +401,11 @@ nav {
 	.services ul li {
 		display: block;
 		margin-bottom: 10px;
+		margin-left: 20px;
 	}
 		
 	.services ul li i {
-		margin-right: 10px;
+		margin-left: -20px;
 		color: #94181C;
 	}
 	
