@@ -368,15 +368,16 @@ nav {
 	.products ul li {
 		display: block;
 		margin-bottom: 10px;
+		margin-left: 30px;
 	}
 		
 	.products ul li i {
+		margin-left: -30px;
 		margin-right: 10px;
 		color: #94181C;
 	}
 	
 	.products ul li ul {
-		margin-left: 20px	;
 		margin-top: 10px;
 	}
 	
@@ -401,16 +402,16 @@ nav {
 	.services ul li {
 		display: block;
 		margin-bottom: 10px;
-		margin-left: 20px;
+		margin-left: 30px;
 	}
 		
 	.services ul li i {
-		margin-left: -20px;
+		margin-left: -30px;
+		margin-right: 10px;
 		color: #94181C;
 	}
 	
 	.services ul li ul {
-		margin-left: 20px	;
 		margin-top: 10px;
 	}
 	
